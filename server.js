@@ -1,7 +1,7 @@
-'use strict';
+'use strict'
 
 // npm
-const Hapi = require('hapi');
+const Hapi = require('hapi')
 const Vision = require('vision')
 const LodashVision = require('lodash-vision')
 
@@ -9,6 +9,7 @@ const server = new Hapi.Server()
 server.connection({ port: 3333, host: 'localhost' })
 
 server.register(Vision, (err) => {
+  if (err) { throw err }
   server.views({
     engines: { html: LodashVision },
     path: 'templates',
