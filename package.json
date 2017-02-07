@@ -11,7 +11,7 @@
   },
   "bin": "cli.js",
   "engines": {
-    "node": ">=4"
+    "node": ">=6"
   },
   "scripts": {
     "lint": "standard",
@@ -23,8 +23,8 @@
     "cli.js"
   ],
   "keywords": [
-    "cli-app",
-    "cli"
+    "hapi",
+    "hapijs"
   ],
   "dependencies": {
     "boom": "^4.2.0",
@@ -33,7 +33,7 @@
     "glue": "^4.1.0",
     "h2o2": "^5.4.0",
     "hapi": "^16.1.0",
-    "joi": "^10.2.0",
+    "joi": "^10.2.1",
     "lodash": "^4.17.4",
     "lodash-vision": "^0.2.0",
     "meow": "^3.7.0",
@@ -41,11 +41,11 @@
     "vision": "^4.1.1"
   },
   "devDependencies": {
-    "ava": "^0.17.0",
+    "ava": "^0.18.1",
     "babel-eslint": "^7.1.1",
     "code": "^4.0.0",
-    "coveralls": "^2.11.15",
-    "lab": "^12.0.0",
+    "coveralls": "^2.11.16",
+    "lab": "^12.1.0",
     "nyc": "^10.1.2",
     "standard": "^8.6.0"
   },
